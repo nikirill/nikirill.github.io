@@ -487,6 +487,7 @@ ul.share li:hover .fa {
 
 #projects.home-section li {
   margin-bottom: 1rem;
+  margin-left: -1rem;
 }
 
 #projects.home-section li:last-of-type {
