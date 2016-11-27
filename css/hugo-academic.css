@@ -80,7 +80,7 @@ h1 {
   font-size: 1.8rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: 0.4rem;
   font-size: 1.4rem;
 }
 h3 {
@@ -294,6 +294,7 @@ ul.ul-edu li .description p.institution {
 ul.ul-contact li {
   font-size: 0.9rem;
   margin-top: 10px;
+  margin-left: -3px;
 }
 
 /*************************************************
