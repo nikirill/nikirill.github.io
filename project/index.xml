@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project-rsses on Kirill Nikitin</title>
-    <link>https://nikirill.github.io/project/index.xml</link>
+    <link>https://nikirill.com/project/index.xml</link>
     <description>Recent content in Project-rsses on Kirill Nikitin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>The Collective Authority (Cothority) Framework</title>
-      <link>https://nikirill.github.io/project/cothority/</link>
+      <link>https://nikirill.com/project/cothority/</link>
       <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nikirill.github.io/project/cothority/</guid>
+      <guid>https://nikirill.com/project/cothority/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tinygroupdtls</title>
-      <link>https://nikirill.github.io/project/tinygroupdtls/</link>
+      <link>https://nikirill.com/project/tinygroupdtls/</link>
       <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nikirill.github.io/project/tinygroupdtls/</guid>
+      <guid>https://nikirill.com/project/tinygroupdtls/</guid>
       <description>&lt;p&gt;This is an extension to the TinyDTLS library by Olaf Bergmann shipped with Contiki OS.
 The version corresponds to the Instant Contiki 2.7 image.
 The purpose of the extension is to make it possible to secure multicast messages and

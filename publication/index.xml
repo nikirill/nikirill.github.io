@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication-rsses on Kirill Nikitin</title>
-    <link>https://nikirill.github.io/publication/index.xml</link>
+    <link>https://nikirill.com/publication/index.xml</link>
     <description>Recent content in Publication-rsses on Kirill Nikitin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Axiom - DTLS-based secure IoT group communication</title>
-      <link>https://nikirill.github.io/publication/journal/axiom/</link>
+      <link>https://nikirill.com/publication/journal/axiom/</link>
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nikirill.github.io/publication/journal/axiom/</guid>
+      <guid>https://nikirill.com/publication/journal/axiom/</guid>
       <description></description>
     </item>
     
