@@ -42,6 +42,11 @@
   </url>
   
   <url>
+    <loc>https://nikirill.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nikirill.com/home/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -62,6 +67,11 @@
   <url>
     <loc>https://nikirill.com/publication/</loc>
     <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nikirill.com/tags/</loc>
     <priority>0</priority>
   </url>
   
