@@ -1,79 +1,118 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://nikirill.com/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication/chainiac/</loc>
+      <lastmod>2017-05-11T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/home/publications/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication/axiom/</loc>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/home/projects/</loc>
-    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/project/cothority/</loc>
+      <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/home/awards/</loc>
-    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/project/tinygroupdtls/</loc>
+      <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/home/teaching/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication_types/1/</loc>
+      <lastmod>2017-05-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/publication/journal/axiom/</loc>
-    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication_types/2/</loc>
+      <lastmod>2017-04-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/project/cothority/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/project/tinygroupdtls/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/categories/</loc>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/project/</loc>
+      <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/home/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication_types/</loc>
+      <lastmod>2017-05-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication/</loc>
+      <lastmod>2017-05-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://nikirill.com/project/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nikirill.com/publication/</loc>
-    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nikirill.com/tags/</loc>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://nikirill.com/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>
