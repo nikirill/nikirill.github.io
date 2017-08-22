@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.24.1" />
+  <meta name="generator" content="Hugo 0.25.1" />
   <meta name="author" content="Kirill Nikitin">
   <meta name="description" content="Ph.D. student">
 
@@ -194,7 +194,19 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text"></p>
+  <p class="pub-abstract" itemprop="text">Software-update mechanisms are critical to the security of modern systems, but their typically centralized 
+design presents a lucrative and frequently attacked target. In this work, we propose CHAINIAC, 
+a decentralized software-update framework that eliminates single points of failure, enforces transparency, and 
+provides efficient verifiability of integrity and authenticity for software-release processes. 
+Independent witness servers collectively verify conformance of software updates to release policies, 
+build verifiers validate the source-to-binary correspondence, and a tamper-proof release log stores 
+collectively signed updates, thus ensuring that no release is accepted by clients before being widely disclosed and validated. 
+The release log embodies a skipchain, a novel data structure, enabling arbitrarily out-of-date clients to efficiently 
+validate updates and signing keys. Evaluation of our CHAINIAC prototype on reproducible Debian packages shows that 
+the automated update process takes the average of 5 minutes per release for individual packages, and only 20 seconds 
+for the aggregate timeline. We further evaluate the framework using real-world data from the PyPI package repository 
+and show that it offers clients security comparable to verifying every single update themselves while consuming only 
+one-fifth of the bandwidth and having a minimal computational overhead.</p>
 
   
   <div class="row">
@@ -221,7 +233,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">To appear at USENIX Security&rsquo;17</div>
+        <div class="col-xs-12 col-sm-9">In the Proceedings of the 26th USENIX Security Symposium, Vancouver, BC, Canada, August 16–18, 2017</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -254,7 +266,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://ia.cr/2017/648">
+<a class="btn btn-primary btn-outline" href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-nikitin.pdf">
   PDF
 </a>
 
