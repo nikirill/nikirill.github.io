@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kirill Nikitin</copyright>
-    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CHAINIAC</title>
+      <link>https://nikirill.com/project/chainiac/</link>
+      <pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/project/chainiac/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Collective Authority (Cothority) Framework</title>
