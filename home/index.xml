@@ -6,9 +6,59 @@
     <description>Recent content in Homes on Kirill Nikitin&#39;s Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Kirill Nikitin</copyright>
+    <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://nikirill.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://nikirill.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/about/</guid>
+      <description>Bio Hi, I am a third-year Ph.D. student in the Decentralized/Distributed Systems lab at Swiss Federal Institute of Technology, Lausanne (EPFL) advised by Prof. Bryan Ford. My research interests revolve around the topics in System and Network Security, Cryptographic Protocols and Distributed Systems. I am currently focused on improving security of software-update systems, reducing metadata leakage from encrypted data formats, and building a secure peer-to-peer collaboration platform.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://nikirill.com/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://nikirill.com/home/projects/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://nikirill.com/home/awards/</link>
+      <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/awards/</guid>
+      <description>EPFL Fellowship for Doctoral Studies (2015) 
+  The Swedish Institute Scholarship (2013 - 2015) 
+  Triple Scholar of Vladimir Potanin Fellowship Program (2009, 2011, 2012)</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://nikirill.com/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/teaching/</guid>
+      <description>I have supervised one master&amp;rsquo;s thesis, two master&amp;rsquo;s and two bachelor&amp;rsquo;s semester projects, and served as a teaching assistant for the following courses at EPFL:
+ CS-438: Decentralized Systems Engineering (fall 2017) COM-402: Information Security and Privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
+    </item>
     
   </channel>
 </rss>

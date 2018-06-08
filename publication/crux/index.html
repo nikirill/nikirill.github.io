@@ -13,6 +13,8 @@
   
   
   
+    
+  
   
     
     
@@ -32,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://nikirill.com/project/chainiac/">
+  <link rel="canonical" href="https://nikirill.com/publication/crux/">
 
   
 
-  <title>CHAINIAC | Kirill Nikitin&#39;s Personal Page</title>
+  <title>Crux: Locality-Preserving Distributed Services | Kirill Nikitin&#39;s Personal Page</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -130,51 +132,52 @@
   </div>
 </nav>
 
-
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">CHAINIAC</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        
+  <div class="container pub-title">
+    <h1 itemprop="name">Crux: Locality-Preserving Distributed Services</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Cristina Basescu, Michael F. Nowlan, Kirill Nikitin, Jose M. Faleiro, Bryan Ford
+      
+    </span>
+    <span class="pull-right">
+      
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnikirill.com%2fpublication%2fcrux%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=CHAINIAC&amp;url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f"
+         href="https://twitter.com/intent/tweet?text=Crux%3a%20Locality-Preserving%20Distributed%20Services&amp;url=https%3a%2f%2fnikirill.com%2fpublication%2fcrux%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f&amp;title=CHAINIAC"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnikirill.com%2fpublication%2fcrux%2f&amp;title=Crux%3a%20Locality-Preserving%20Distributed%20Services"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f&amp;title=CHAINIAC"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnikirill.com%2fpublication%2fcrux%2f&amp;title=Crux%3a%20Locality-Preserving%20Distributed%20Services"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=CHAINIAC&amp;body=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f">
+         href="mailto:?subject=Crux%3a%20Locality-Preserving%20Distributed%20Services&amp;body=https%3a%2f%2fnikirill.com%2fpublication%2fcrux%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -182,26 +185,116 @@
 </div>
 
 
-      </span>
-    </div>
-
-    
-    <a class="btn btn-primary btn-outline" href="https://github.com/dedis/paper_chainiac" target="_blank">Go to Project Site</a>
-    
-
-    <div class="article-style" itemprop="articleBody">
-      
-    </div>
-
+    </span>
   </div>
-</article>
+
+</div>
+<div class="article-container">
+
+  
+
+  <h3>Abstract</h3>
+  <p class="pub-abstract" itemprop="text">Distributed systems achieve scalability by distributing load across many machines, 
+but wide-area deployments can introduce worst-case response latencies proportional to the network&#39;s diameter. 
+Crux is a general framework to build locality-preserving distributed systems, by transforming an existing 
+scalable distributed algorithm A into a new locality-preserving algorithm ALP, which guarantees for any two 
+clients u and v interacting via ALP that their interactions exhibit worst-case response latencies proportional 
+to the network latency between u and v. Crux builds on compact-routing theory, but generalizes these techniques 
+beyond routing applications. Crux provides weak and strong consistency flavors, and shows latency improvements 
+for localized interactions in both cases, specifically up to several orders of magnitude for weakly-consistent 
+Crux (from roughly 900ms to 1ms). We deployed on PlanetLab locality-preserving versions of a Memcached distributed 
+cache, a Bamboo distributed hash table, and a Redis publish/subscribe. Our results indicate that Crux is effective 
+and applicable to a variety of existing distributed algorithms.</p>
+
+  
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+        <div class="col-xs-12 col-sm-9">
+          
+          <a href="/publication/#7">
+            Preprint
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+        <div class="col-xs-12 col-sm-9">arXiv:1405.0637, May 2018</div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+          May, 2018
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row" style="padding-top: 10px">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+        <div class="col-xs-12 col-sm-9">
+
+          
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1405.0637.pdf">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="space-below"></div>
+
+  <div class="article-style"></div>
+
+</div>
 
 <div class="container">
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://nikirill.com/project/cothority/"><span
-      aria-hidden="true">&larr;</span> The Collective Authority (Cothority) Framework</a></li>
+    <li class="previous"><a href="https://nikirill.com/publication/chainiac/"><span
+      aria-hidden="true">&larr;</span> CHAINIAC: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds</a></li>
     
 
     

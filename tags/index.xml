@@ -6,8 +6,10 @@
     <description>Recent content in Tags on Kirill Nikitin&#39;s Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Kirill Nikitin</copyright>
-    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
+    
+	<atom:link href="https://nikirill.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
