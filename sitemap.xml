@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-    
     <url>
     
-      <loc>https://nikirill.com/publication/purbs/</loc>
-      <lastmod>2018-06-08T00:00:00-07:00</lastmod>
+      <loc>https://nikirill.com/talk/purbs/</loc>
+      <lastmod>2018-07-21T00:00:00+02:00</lastmod>
     </url>
     
   
     
+    <url>
+    
+      <loc>https://nikirill.com/publication/purbs/</loc>
+      <lastmod>2018-06-08T00:00:00+02:00</lastmod>
+    </url>
+    
+  
     
     <url>
     
@@ -20,7 +26,6 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/publication/chainiac/</loc>
@@ -29,6 +34,13 @@
     
   
     
+    <url>
+    
+      <loc>https://nikirill.com/talk/chainiac/</loc>
+      <lastmod>2017-08-18T00:00:00+02:00</lastmod>
+    </url>
+    
+  
     
     <url>
     
@@ -38,7 +50,6 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/publication/axiom/</loc>
@@ -46,7 +57,6 @@
     </url>
     
   
-    
     
     <url>
     
@@ -56,7 +66,6 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/project/tinygroupdtls/</loc>
@@ -64,7 +73,6 @@
     </url>
     
   
-    
     
     <url>
     
@@ -75,7 +83,6 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/publication_types/2/</loc>
@@ -85,16 +92,14 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/publication_types/7/</loc>
-      <lastmod>2018-06-08T00:00:00-07:00</lastmod>
+      <lastmod>2018-06-08T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
   
-    
     
     <url>
     
@@ -103,7 +108,6 @@
     </url>
     
   
-    
     
     <url>
     
@@ -114,7 +118,6 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/project/</loc>
@@ -123,7 +126,6 @@
     </url>
     
   
-    
     
     <url>
     
@@ -134,20 +136,27 @@
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/publication/</loc>
-      <lastmod>2018-06-08T00:00:00-07:00</lastmod>
+      <lastmod>2018-06-08T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
   
     
-    
     <url>
     
       <loc>https://nikirill.com/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/talk/</loc>
+      <lastmod>2018-07-21T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     

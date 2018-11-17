@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nikirill.com/home/about/</guid>
-      <description>Bio Hi, I am a third-year Ph.D. student in the Decentralized/Distributed Systems lab at Swiss Federal Institute of Technology, Lausanne (EPFL) advised by Prof. Bryan Ford. My research interests revolve around the topics in System and Network Security, Cryptographic Protocols and Distributed Systems. I am currently focused on improving security of software-update systems, reducing metadata leakage from encrypted data formats, and building a secure peer-to-peer collaboration platform.</description>
+      <description>Bio Hi, I am a fourth-year Ph.D. student in the Decentralized/Distributed Systems lab at École polytechnique fédérale de Lausanne (EPFL) advised by Prof. Bryan Ford, and a member of IC3, The Initiative For CryptoCurrencies &amp;amp; Contracts. My research interests revolve around the topics in System and Network Security, Privacy, Distributed Systems, and Smart Contracts. I am currently focused on improving security of software-update systems, reducing metadata leakage from encrypted data formats, and building a secure peer-to-peer collaboration platform.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@
     <item>
       <title>Talks</title>
       <link>https://nikirill.com/home/talks/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://nikirill.com/home/talks/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Projects</title>
       <link>https://nikirill.com/home/projects/</link>
-      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0100</pubDate>
       
       <guid>https://nikirill.com/home/projects/</guid>
       <description></description>
@@ -66,7 +66,7 @@
       
       <guid>https://nikirill.com/home/teaching/</guid>
       <description>I have supervised two master&amp;rsquo;s theses, two master&amp;rsquo;s and two bachelor&amp;rsquo;s semester projects, and served as a teaching assistant for the following courses at EPFL:
- CS-438: Decentralized Systems Engineering (fall 2017) COM-402: Information Security and Privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
+ CS-438: Decentralized Systems Engineering (fall 2017, 2018) COM-402: Information Security and Privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
     </item>
     
   </channel>
