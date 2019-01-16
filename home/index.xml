@@ -58,6 +58,27 @@
     </item>
     
     <item>
+      <title>Teaching</title>
+      <link>https://nikirill.com/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/teaching/</guid>
+      <description>I have supervised two master&amp;rsquo;s theses, two master&amp;rsquo;s and two bachelor&amp;rsquo;s semester projects, and served as a teaching assistant for the following courses at EPFL:
+ CS-438: Decentralized Systems Engineering (fall 2017, 2018) COM-402: Information Security and Privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>https://nikirill.com/home/service/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/service/</guid>
+      <description>I have served on the Technical Program Committee of the following conferences and workshops:
+ ICBC 2019: IEEE International Conference on Blockchain and Cryptocurrency 2019 CryBlock 2019: 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems  I also sub-reviewed for:
+ CCS&amp;rsquo;17: ACM Conf. on Computer and Communications Security 2017  </description>
+    </item>
+    
+    <item>
       <title>Awards</title>
       <link>https://nikirill.com/home/awards/</link>
       <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
@@ -66,16 +87,6 @@
       <description>EPFL Fellowship for Doctoral Studies (2015) 
   The Swedish Institute Scholarship (2013 - 2015) 
   Triple Scholar of Vladimir Potanin Fellowship Program (2009, 2011, 2012)</description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://nikirill.com/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nikirill.com/home/teaching/</guid>
-      <description>I have supervised two master&amp;rsquo;s theses, two master&amp;rsquo;s and two bachelor&amp;rsquo;s semester projects, and served as a teaching assistant for the following courses at EPFL:
- CS-438: Decentralized Systems Engineering (fall 2017, 2018) COM-402: Information Security and Privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
     </item>
     
   </channel>
