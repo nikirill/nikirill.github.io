@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.1.1">
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.55.6" />
   <meta name="author" content="Kirill Nikitin">
 
   
@@ -15,22 +15,21 @@
   
     
   
-  <meta name="description" content="Most encrypted data formats, such as PGP, leak substantial metadata in their plaintext headers, 
-such as format version, encryption schemes used, the number of recipients who can decrypt the data, 
-and even the identities of those recipients. This leakage can pose security and privacy risks, e.g., 
-by revealing the full membership of a group of collaborators from a single encrypted E-mail between two of them, 
-or enabling an eavesdropper to fingerprint the precise encryption software version and configuration the sender 
-used and to facilitate targeted attacks against specific endpoint software weaknesses. We propose to improve 
-security and privacy hygiene by designing future encrypted data formats such that no one without a relevant 
-decryption key learns anything at all from a ciphertext apart from its length - and learns as little as possible 
-even from that. To achieve this goal we present Padded Uniform Random Blobs or PURBs, an encrypted format 
-functionally similar to PGP but strongly minimizing a ciphertext&#39;s leakage via metadata or length. 
-A PURB is indistinguishable from a uniform random bit-string to an observer without a decryption key. 
-Legitimate recipients can efficiently decrypt the PURB even when it is encrypted for any number of 
-recipients&#39; public keys and/or passwords, and when those public keys are of different cryptographic schemes. 
-PURBs use a novel padding scheme to reduce potential information leakage via the ciphertext&#39;s length _L_ to 
-the asymptotic minimum of _O(log(log(L)))_ bits, comparable to padding to a power of two, but with much lower 
-padding overhead of at most 12% which decreases further with large payloads.">
+  <meta name="description" content="Most encrypted data formats leak metadata via their plaintext headers, such as format version, encryption
+              schemes used, number of recipients who can decrypt the data, and even the recipients’ identities. This 
+              leakage can pose security and privacy risks to users, e.g., by revealing the full membership of a group of 
+              collaboators from a single encrypted e-mail, or by enabling an eavesdropper to fingerprint the precise 
+              encryption software version and configuration the sender used.
+              We propose that future encrypted data formats improve security and privacy hygiene by producing Padded 
+              Uniform Random Blobs or _PURBs_: ciphertexts indistinguishable from random bit strings to anyone without a 
+              decryption key. A PURB’s content leaks nothing at all, even the application that created it, and is padded 
+              such that even its length leaks as little as possible. Encoding and decoding ciphertexts with no cleartext 
+              markers presents efficiency challenges, however. We present cryptographically agile encodings enabling 
+              legitimate recipients to decrypt a PURB efficiently, even when encrypted for any number of recipients’ 
+              public keys and/or passwords, and when these public keys are from different cryptographic suites. PURBs 
+              employ Padmé, a novel padding scheme that limits information leakage via ciphertexts of maximum length _M_
+               to a practical optimum of _O(loglog M)_ bits, comparable to padding to a power of two, but with lower 
+               overhead of at most 12% and decreasing with larger payloads.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nikirill.com/publication/purbs/">
@@ -122,31 +121,30 @@ padding overhead of at most 12% which decreases further with large payloads.">
   <meta property="og:site_name" content="Kirill Nikitin&#39;s Personal Page">
   <meta property="og:url" content="https://nikirill.com/publication/purbs/">
   <meta property="og:title" content="Reducing Metadata Leakage from Encrypted Files and Communication with PURBs | Kirill Nikitin&#39;s Personal Page">
-  <meta property="og:description" content="Most encrypted data formats, such as PGP, leak substantial metadata in their plaintext headers, 
-such as format version, encryption schemes used, the number of recipients who can decrypt the data, 
-and even the identities of those recipients. This leakage can pose security and privacy risks, e.g., 
-by revealing the full membership of a group of collaborators from a single encrypted E-mail between two of them, 
-or enabling an eavesdropper to fingerprint the precise encryption software version and configuration the sender 
-used and to facilitate targeted attacks against specific endpoint software weaknesses. We propose to improve 
-security and privacy hygiene by designing future encrypted data formats such that no one without a relevant 
-decryption key learns anything at all from a ciphertext apart from its length - and learns as little as possible 
-even from that. To achieve this goal we present Padded Uniform Random Blobs or PURBs, an encrypted format 
-functionally similar to PGP but strongly minimizing a ciphertext&#39;s leakage via metadata or length. 
-A PURB is indistinguishable from a uniform random bit-string to an observer without a decryption key. 
-Legitimate recipients can efficiently decrypt the PURB even when it is encrypted for any number of 
-recipients&#39; public keys and/or passwords, and when those public keys are of different cryptographic schemes. 
-PURBs use a novel padding scheme to reduce potential information leakage via the ciphertext&#39;s length _L_ to 
-the asymptotic minimum of _O(log(log(L)))_ bits, comparable to padding to a power of two, but with much lower 
-padding overhead of at most 12% which decreases further with large payloads.">
+  <meta property="og:description" content="Most encrypted data formats leak metadata via their plaintext headers, such as format version, encryption
+              schemes used, number of recipients who can decrypt the data, and even the recipients’ identities. This 
+              leakage can pose security and privacy risks to users, e.g., by revealing the full membership of a group of 
+              collaboators from a single encrypted e-mail, or by enabling an eavesdropper to fingerprint the precise 
+              encryption software version and configuration the sender used.
+              We propose that future encrypted data formats improve security and privacy hygiene by producing Padded 
+              Uniform Random Blobs or _PURBs_: ciphertexts indistinguishable from random bit strings to anyone without a 
+              decryption key. A PURB’s content leaks nothing at all, even the application that created it, and is padded 
+              such that even its length leaks as little as possible. Encoding and decoding ciphertexts with no cleartext 
+              markers presents efficiency challenges, however. We present cryptographically agile encodings enabling 
+              legitimate recipients to decrypt a PURB efficiently, even when encrypted for any number of recipients’ 
+              public keys and/or passwords, and when these public keys are from different cryptographic suites. PURBs 
+              employ Padmé, a novel padding scheme that limits information leakage via ciphertexts of maximum length _M_
+               to a practical optimum of _O(loglog M)_ bits, comparable to padding to a power of two, but with lower 
+               overhead of at most 12% and decreasing with larger payloads.">
   
   
     
   <meta property="og:image" content="https://nikirill.com/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-06-08T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2019-07-03T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2018-06-08T00:00:00&#43;02:00">
+  <meta property="article:modified_time" content="2019-07-03T00:00:00&#43;02:00">
   
 
   
@@ -374,7 +372,7 @@ padding overhead of at most 12% which decreases further with large payloads.">
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name"><strong>Kirill Nikitin</strong>, Ludovic Barman, Matthew Underwood, Jean-Pierre Hubaux and Bryan Ford</span>
+      <span itemprop="name"><strong>Kirill Nikitin</strong>, Ludovic Barman, Wouter Lueks, Matthew Underwood, Jean-Pierre Hubaux and Bryan Ford</span>
     </span>
     
   </div>
@@ -382,9 +380,9 @@ padding overhead of at most 12% which decreases further with large payloads.">
 
   <span class="article-date">
     
-    <meta content="2018-06-08 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2018-06-08 00:00:00 &#43;0200 CEST" itemprop="dateModified">
-      Jun 8, 2018
+    <meta content="2019-07-03 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2019-07-03 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+      Jul 3, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -484,7 +482,7 @@ padding overhead of at most 12% which decreases further with large payloads.">
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dedis/paper_purbs" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dedis/purb" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -513,22 +511,21 @@ padding overhead of at most 12% which decreases further with large payloads.">
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Most encrypted data formats, such as PGP, leak substantial metadata in their plaintext headers,
-such as format version, encryption schemes used, the number of recipients who can decrypt the data,
-and even the identities of those recipients. This leakage can pose security and privacy risks, e.g.,
-by revealing the full membership of a group of collaborators from a single encrypted E-mail between two of them,
-or enabling an eavesdropper to fingerprint the precise encryption software version and configuration the sender
-used and to facilitate targeted attacks against specific endpoint software weaknesses. We propose to improve
-security and privacy hygiene by designing future encrypted data formats such that no one without a relevant
-decryption key learns anything at all from a ciphertext apart from its length - and learns as little as possible
-even from that. To achieve this goal we present Padded Uniform Random Blobs or PURBs, an encrypted format
-functionally similar to PGP but strongly minimizing a ciphertext&rsquo;s leakage via metadata or length.
-A PURB is indistinguishable from a uniform random bit-string to an observer without a decryption key.
-Legitimate recipients can efficiently decrypt the PURB even when it is encrypted for any number of
-recipients&rsquo; public keys and/or passwords, and when those public keys are of different cryptographic schemes.
-PURBs use a novel padding scheme to reduce potential information leakage via the ciphertext&rsquo;s length <em>L</em> to
-the asymptotic minimum of <em>O(log(log(L)))</em> bits, comparable to padding to a power of two, but with much lower
-padding overhead of at most 12% which decreases further with large payloads.</p>
+    <p class="pub-abstract" itemprop="text">Most encrypted data formats leak metadata via their plaintext headers, such as format version, encryption
+              schemes used, number of recipients who can decrypt the data, and even the recipients’ identities. This
+              leakage can pose security and privacy risks to users, e.g., by revealing the full membership of a group of
+              collaboators from a single encrypted e-mail, or by enabling an eavesdropper to fingerprint the precise
+              encryption software version and configuration the sender used.
+              We propose that future encrypted data formats improve security and privacy hygiene by producing Padded
+              Uniform Random Blobs or <em>PURBs</em>: ciphertexts indistinguishable from random bit strings to anyone without a
+              decryption key. A PURB’s content leaks nothing at all, even the application that created it, and is padded
+              such that even its length leaks as little as possible. Encoding and decoding ciphertexts with no cleartext
+              markers presents efficiency challenges, however. We present cryptographically agile encodings enabling
+              legitimate recipients to decrypt a PURB efficiently, even when encrypted for any number of recipients’
+              public keys and/or passwords, and when these public keys are from different cryptographic suites. PURBs
+              employ Padmé, a novel padding scheme that limits information leakage via ciphertexts of maximum length <em>M</em>
+               to a practical optimum of <em>O(loglog M)</em> bits, comparable to padding to a power of two, but with lower
+               overhead of at most 12% and decreasing with larger payloads.</p>
     
 
     
@@ -539,8 +536,8 @@ padding overhead of at most 12% which decreases further with large payloads.</p>
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#7">
-              Preprint
+            <a href="/publication/#1">
+              Conference proceedings
             </a>
             
           </div>
@@ -557,7 +554,7 @@ padding overhead of at most 12% which decreases further with large payloads.</p>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">arXiv:1806.03160, January 2019</div>
+          <div class="col-12 col-md-9">Privacy Enhancing Technologies Symposium, July 2019</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -571,7 +568,7 @@ padding overhead of at most 12% which decreases further with large payloads.</p>
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            June, 2018
+            July, 2019
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
-    <lastBuildDate>Fri, 18 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>1</title>
       <link>https://nikirill.com/publication_types/1/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
       
       <guid>https://nikirill.com/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7</title>
+      <link>https://nikirill.com/publication_types/7/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/publication_types/7/</guid>
       <description></description>
     </item>
     
@@ -27,15 +36,6 @@
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://nikirill.com/publication_types/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>7</title>
-      <link>https://nikirill.com/publication_types/7/</link>
-      <pubDate>Fri, 08 Jun 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://nikirill.com/publication_types/7/</guid>
       <description></description>
     </item>
     
