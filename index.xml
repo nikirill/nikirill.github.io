@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reducing Metadata Leakage from Encrypted Files and Communication with PURBs</title>
       <link>https://nikirill.com/publication/purbs/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0100</pubDate>
       
       <guid>https://nikirill.com/publication/purbs/</guid>
       <description></description>
@@ -21,7 +21,7 @@
     <item>
       <title>Reducing Metadata Leakage from Encrypted Files and Communication with PURBs</title>
       <link>https://nikirill.com/talk/purbs/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0100</pubDate>
       
       <guid>https://nikirill.com/talk/purbs/</guid>
       <description></description>
@@ -48,7 +48,7 @@
     <item>
       <title>CHAINIAC: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds</title>
       <link>https://nikirill.com/talk/chainiac/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 +0100</pubDate>
       
       <guid>https://nikirill.com/talk/chainiac/</guid>
       <description></description>
