@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Reducing Metadata Leakage from Encrypted Files and Communication with PURBs</title>
       <link>https://nikirill.com/publication/purbs/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
       
       <guid>https://nikirill.com/publication/purbs/</guid>
       <description></description>
