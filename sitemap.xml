@@ -3,15 +3,63 @@
     
     <url>
     
-      <loc>https://nikirill.com/publication_types/1/</loc>
-      <lastmod>2019-07-03T00:00:00+02:00</lastmod>
+      <loc>https://nikirill.com/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://nikirill.com/</loc>
+      <loc>https://nikirill.com/tags/metadata-protection/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/project/purbs/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/tags/padding/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/tags/privacy/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/project/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/tags/</loc>
+      <lastmod>2019-12-07T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/publication_types/1/</loc>
       <lastmod>2019-07-03T00:00:00+02:00</lastmod>
     </url>
     
@@ -99,7 +147,15 @@
     
     <url>
     
-      <loc>https://nikirill.com/project/</loc>
+      <loc>https://nikirill.com/tags/software-updates/</loc>
+      <lastmod>2017-05-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nikirill.com/tags/systems-security/</loc>
       <lastmod>2017-05-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -123,6 +179,14 @@
     
     <url>
     
+      <loc>https://nikirill.com/tags/iot/</loc>
+      <lastmod>2016-11-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://nikirill.com/project/cothority/</loc>
       <lastmod>2016-11-06T00:00:00+00:00</lastmod>
     </url>
@@ -140,13 +204,6 @@
     <url>
     
       <loc>https://nikirill.com/categories/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://nikirill.com/tags/</loc>
     </url>
     
   

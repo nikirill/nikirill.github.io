@@ -110,7 +110,7 @@ by arbitrarily out-of-date clients.
   
   <meta property="og:site_name" content="Kirill Nikitin&#39;s Personal Page">
   <meta property="og:url" content="https://nikirill.com/project/chainiac/">
-  <meta property="og:title" content="CHAINIAC | Kirill Nikitin&#39;s Personal Page">
+  <meta property="og:title" content="Security of software-update systems | Kirill Nikitin&#39;s Personal Page">
   <meta property="og:description" content="A software-update framework that provides decentralized enforcement of development 
 and release processes, independent verification of source-to-binary correspondence, 
 transparency via a collectively-signed update timeline, and efficient release validation 
@@ -131,7 +131,7 @@ by arbitrarily out-of-date clients.
 
   
 
-  <title>CHAINIAC | Kirill Nikitin&#39;s Personal Page</title>
+  <title>Security of software-update systems | Kirill Nikitin&#39;s Personal Page</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -339,7 +339,7 @@ by arbitrarily out-of-date clients.
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">CHAINIAC</h1>
+  <h1 itemprop="name">Security of software-update systems</h1>
 
   
 
@@ -379,7 +379,7 @@ by arbitrarily out-of-date clients.
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=CHAINIAC&amp;url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f"
+         href="https://twitter.com/intent/tweet?text=Security%20of%20software-update%20systems&amp;url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -393,21 +393,21 @@ by arbitrarily out-of-date clients.
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f&amp;title=CHAINIAC"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f&amp;title=Security%20of%20software-update%20systems"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f&amp;title=CHAINIAC"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f&amp;title=Security%20of%20software-update%20systems"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=CHAINIAC&amp;body=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f">
+         href="mailto:?subject=Security%20of%20software-update%20systems&amp;body=https%3a%2f%2fnikirill.com%2fproject%2fchainiac%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -436,8 +436,6 @@ by arbitrarily out-of-date clients.
 
 <div class="btn-links mb-3">
   
-  <a class="btn btn-outline-primary my-1" href="https://github.com/dedis/paper_chainiac" target="_blank" rel="noopener">Go to Project Site</a>
-  
   
 
 
@@ -448,6 +446,22 @@ by arbitrarily out-of-date clients.
 
 
   
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-nikitin.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dedis/paper_chainiac" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -460,7 +474,17 @@ by arbitrarily out-of-date clients.
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/chainiac-usenix-slides.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
 
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/xpT6L8htINU" target="_blank" rel="noopener">
+  Video
+</a>
 
 
 
@@ -477,11 +501,32 @@ by arbitrarily out-of-date clients.
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>Software-update mechanisms are critical to the security of modern systems, but their typically centralized design
+presents a lucrative and frequently attacked target. In this work, we propose CHAINIAC, a decentralized software-update
+framework that eliminates single points of failure, enforces transparency, and provides efficient verifiability of
+integrity and authenticity for software-release processes. Independent <em>witness servers</em> collectively verify
+conformance of software updates to release policies, <em>build verifiers</em> validate the source-to-binary correspondence,
+and a tamper-proof release log stores collectively signed updates, thus ensuring that no release is accepted by clients
+before being widely disclosed and validated. The release log embodies a skipchain, a novel data structure, enabling
+arbitrarily out-of-date clients to efficiently validate updates and signing keys.
+Evaluation of our CHAINIAC prototype on reproducible Debian packages shows that the automated update process takes
+the average of 5 minutes per release for individual packages, and only 20 seconds for the aggregate timeline.
+We further evaluate the framework using real-world data from the PyPI package repository and show that it offers
+clients security comparable to verifying every single update themselves while consuming only one-fifth of the bandwidth
+and having a minimal computational overhead.</p>
+
     </div>
 
     
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">systems security</a>
+  
+  <a class="badge badge-light" href="">software updates</a>
+  
+</div>
 
 
 
