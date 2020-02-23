@@ -15,7 +15,18 @@
   
     
   
-  <meta name="description" content="More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.">
+  <meta name="description" content="This paper introduces a new approach to reduce end-to-end costs in large-scale replicated systems built 
+under a Byzantine fault model. Specifically, our approach transforms a given replicated state machine (RSM) 
+to another RSM where nodes incur lower costs by _delegating_ state machine execution: an untrusted prover 
+produces succinct cryptographic proofs of correct state transitions along with state changes, which nodes in 
+the transformed RSM verify and apply respectively.
+
+To realize our approach, we build _Piperine_, a system that makes the proof machinery profitable in the context 
+of RSMs. Specifically, Piperine reduces the costs of both proving and verifying the correctness of state machine execution 
+while retaining liveness---a distinctive requirement in the context of RSMs. Our experimental evaluation demonstrates that, 
+for a payment service, employing Piperine is more profitable than naive reexecution of transactions as long as 
+there are $&gt; 10^4$ nodes. When we apply Piperine to ERC-20 transactions in Ethereum (a real-world RSM with up to $10^5$ 
+nodes), it reduces per-transaction costs by 5.4x and network costs by 2.7x.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nikirill.com/publication/piperine/">
@@ -107,7 +118,18 @@
   <meta property="og:site_name" content="Kirill Nikitin&#39;s Personal Page">
   <meta property="og:url" content="https://nikirill.com/publication/piperine/">
   <meta property="og:title" content="Replicated state machines without replicated execution | Kirill Nikitin&#39;s Personal Page">
-  <meta property="og:description" content="More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.">
+  <meta property="og:description" content="This paper introduces a new approach to reduce end-to-end costs in large-scale replicated systems built 
+under a Byzantine fault model. Specifically, our approach transforms a given replicated state machine (RSM) 
+to another RSM where nodes incur lower costs by _delegating_ state machine execution: an untrusted prover 
+produces succinct cryptographic proofs of correct state transitions along with state changes, which nodes in 
+the transformed RSM verify and apply respectively.
+
+To realize our approach, we build _Piperine_, a system that makes the proof machinery profitable in the context 
+of RSMs. Specifically, Piperine reduces the costs of both proving and verifying the correctness of state machine execution 
+while retaining liveness---a distinctive requirement in the context of RSMs. Our experimental evaluation demonstrates that, 
+for a payment service, employing Piperine is more profitable than naive reexecution of transactions as long as 
+there are $&gt; 10^4$ nodes. When we apply Piperine to ERC-20 transactions in Ethereum (a real-world RSM with up to $10^5$ 
+nodes), it reduces per-transaction costs by 5.4x and network costs by 2.7x.">
   
   
     
@@ -486,6 +508,21 @@
   <div class="article-container">
 
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>This paper introduces a new approach to reduce end-to-end costs in large-scale replicated systems built
+under a Byzantine fault model. Specifically, our approach transforms a given replicated state machine (RSM)
+to another RSM where nodes incur lower costs by <em>delegating</em> state machine execution: an untrusted prover
+produces succinct cryptographic proofs of correct state transitions along with state changes, which nodes in
+the transformed RSM verify and apply respectively.</p>
+
+<p>To realize our approach, we build <em>Piperine</em>, a system that makes the proof machinery profitable in the context
+of RSMs. Specifically, Piperine reduces the costs of both proving and verifying the correctness of state machine execution
+while retaining liveness&mdash;a distinctive requirement in the context of RSMs. Our experimental evaluation demonstrates that,
+for a payment service, employing Piperine is more profitable than naive reexecution of transactions as long as
+there are $&gt; 10^4$ nodes. When we apply Piperine to ERC-20 transactions in Ethereum (a real-world RSM with up to $10^5$
+nodes), it reduces per-transaction costs by 5.4x and network costs by 2.7x.</p>
+</p>
+    
 
     
     <div class="row">
@@ -513,7 +550,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">To appear at <em>IEEE Symposium on Security and Privacy</em>, May 2020</div>
+          <div class="col-12 col-md-9">To appear in the <em>IEEE Symposium on Security and Privacy</em>, May 2020</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -537,8 +574,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p>More detail can easily be written here using <em>Markdown</em> and $\rm \LaTeX$ math code.</p>
-</div>
+    <div class="article-style"></div>
 
     
 
