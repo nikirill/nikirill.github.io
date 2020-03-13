@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Kirill Nikitin&#39;s Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
+    <copyright>&amp;copy; 2020 Kirill Nikitin</copyright>
     <lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/home/index.xml" rel="self" type="application/rss+xml" />
@@ -64,7 +64,7 @@
       
       <guid>https://nikirill.com/home/teaching/</guid>
       <description>I have supervised two master&amp;rsquo;s theses, three master&amp;rsquo;s and two bachelor&amp;rsquo;s semester projects, and served as a teaching assistant for the following courses at EPFL:
- CS-234: Technologies of societal self-organization (fall 2019) CS-438: Decentralized Systems Engineering (fall 2017, 2018) COM-402: Information Security and Privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
+ CS-119: Information, computation and communication (spring 2020) CS-234: Technologies of societal self-organization (fall 2019) CS-438: Decentralized systems engineering (fall 2017, 2018) COM-402: Information security and privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@
       
       <guid>https://nikirill.com/home/service/</guid>
       <description>I have served on the Program Committee of the following conferences and workshops:
- BlockSys 2019: Workshop on Blockchain-enabled Networked Sensor Systems ICBC 2019: IEEE International Conference on Blockchain and Cryptocurrency CryBlock 2019: Workshop on Cryptocurrencies and Blockchains for Distributed Systems  I also have been an external reviewer and a sub-reviewer for:
+ CryBlock 2020, 2019: Workshop on Cryptocurrencies and Blockchains for Distributed Systems BlockSys 2019: Workshop on Blockchain-enabled Networked Sensor Systems ICBC 2019: IEEE International Conference on Blockchain and Cryptocurrency  I also have been an external reviewer and a sub-reviewer for:
  IEEE Transactions on Industrial Informatics 2019 CCS&amp;rsquo;17: ACM Conf. on Computer and Communications Security 2017  </description>
     </item>
     

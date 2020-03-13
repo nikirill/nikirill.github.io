@@ -6,11 +6,20 @@
     <description>Recent content in 2 on Kirill Nikitin&#39;s Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Kirill Nikitin</copyright>
-    <lastBuildDate>Sat, 01 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2020 Kirill Nikitin</copyright>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reducing metadata leakage from encrypted files and communication with PURBs</title>
+      <link>https://nikirill.com/publication/purbs/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://nikirill.com/publication/purbs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Axiom - DTLS-based secure IoT group communication</title>
