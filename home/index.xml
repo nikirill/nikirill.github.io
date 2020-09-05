@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nikirill.com/home/about/</guid>
-      <description>Bio Hi, I am a fifth-year Ph.D. student in the Decentralized and Distributed Systems lab at École polytechnique fédérale de Lausanne (EPFL) advised by Prof. Bryan Ford, and a member of IC3, The Initiative For CryptoCurrencies &amp;amp; Contracts. My research interests revolve around the topics in Privacy, Computer and Network Security, Distributed Systems, and Blockchain Smart Contracts. I am currently focused on reducing metadata leakage from encrypted data formats and protocols for secure communication, improving security of software-update systems, and scaling and securing smart contracts.</description>
+      <description>Bio Hi, I am a final-year Ph.D. student in the Decentralized and Distributed Systems lab at École polytechnique fédérale de Lausanne (EPFL) advised by Prof. Bryan Ford, and a member of IC3, The Initiative For CryptoCurrencies &amp;amp; Contracts. My research interests revolve around the topics in Privacy, Computer and Network Security, and Smart Contracts. I am currently focused on reducing metadata leakage from encrypted data formats and protocols for secure communication, improving security of software-update systems, and scaling and securing smart contracts.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@
     <item>
       <title>Talks</title>
       <link>https://nikirill.com/home/talks/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/home/talks/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Projects</title>
       <link>https://nikirill.com/home/projects/</link>
-      <pubDate>Sun, 11 Nov 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/home/projects/</guid>
       <description></description>
@@ -75,7 +75,7 @@
       <guid>https://nikirill.com/home/service/</guid>
       <description>I have served on the Program Committee of the following conferences and workshops:
  CryBlock 2020, 2019: Workshop on Cryptocurrencies and Blockchains for Distributed Systems BlockSys 2019: Workshop on Blockchain-enabled Networked Sensor Systems ICBC 2019: IEEE International Conference on Blockchain and Cryptocurrency  I also have been an external reviewer and a sub-reviewer for:
- IEEE Transactions on Industrial Informatics 2019 CCS&amp;rsquo;17: ACM Conf. on Computer and Communications Security 2017  </description>
+ IEEE Transactions on Parallel and Distributed Systems 2020 IEEE Transactions on Industrial Informatics 2019 CCS&amp;rsquo;17: ACM Conf.</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@
       <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nikirill.com/home/awards/</guid>
-      <description>+++   The Doc.Mobility Fellowship from The Swiss National Science Foundation (2020)  +++
+      <description>The Doc.Mobility Fellowship from The Swiss National Science Foundation (2020) 
   EPFL EDIC Fellowship for Doctoral Studies (2015) 
   The Swedish Institute Scholarship (2013 - 2015) 
   Triple Scholar of Vladimir Potanin Fellowship Program (2009, 2011, 2012)</description>

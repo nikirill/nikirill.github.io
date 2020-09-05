@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Kirill Nikitin</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0300</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Replicated state machines without replicated execution</title>
       <link>https://nikirill.com/publication/piperine/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/publication/piperine/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Reducing metadata leakage from encrypted files and communication with PURBs</title>
       <link>https://nikirill.com/publication/purbs/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/publication/purbs/</guid>
       <description></description>
