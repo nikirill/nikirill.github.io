@@ -5,14 +5,14 @@
     <description>Recent content in Kirill Nikitin&#39;s Personal Page on Kirill Nikitin&#39;s Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Kirill Nikitin</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0100</lastBuildDate>
+    <copyright>&amp;copy; 2021 Kirill Nikitin</copyright>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Replicated state machines without replicated execution</title>
       <link>https://nikirill.com/publication/piperine/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/publication/piperine/</guid>
       <description></description>
@@ -21,7 +21,7 @@
     <item>
       <title>Padded Uniform Random Blobs (PURBs)</title>
       <link>https://nikirill.com/project/purbs/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/project/purbs/</guid>
       <description>&lt;p&gt;Most encrypted data formats leak metadata via their plaintext headers, such as format version, encryption schemes used,
@@ -46,7 +46,7 @@ padding to a power of two, but with lower overhead of at most 12% and decreasing
     <item>
       <title>Reducing metadata leakage from encrypted files and communication with PURBs</title>
       <link>https://nikirill.com/publication/purbs/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/publication/purbs/</guid>
       <description></description>
@@ -55,7 +55,7 @@ padding to a power of two, but with lower overhead of at most 12% and decreasing
     <item>
       <title>Reducing Metadata Leakage from Encrypted Files and Communication with PURBs</title>
       <link>https://nikirill.com/talk/purbs/</link>
-      <pubDate>Sat, 21 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/talk/purbs/</guid>
       <description></description>
@@ -82,7 +82,7 @@ padding to a power of two, but with lower overhead of at most 12% and decreasing
     <item>
       <title>CHAINIAC: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds</title>
       <link>https://nikirill.com/talk/chainiac/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 +0300</pubDate>
       
       <guid>https://nikirill.com/talk/chainiac/</guid>
       <description></description>
