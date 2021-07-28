@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021 Kirill Nikitin</copyright>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/project/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Padded Uniform Random Blobs (PURBs)</title>
       <link>https://nikirill.com/project/purbs/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0300</pubDate>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>https://nikirill.com/project/purbs/</guid>
       <description>A format for encrypted data which makes it indistinguishable from random bits and minimizes
