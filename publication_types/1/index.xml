@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Kirill Nikitin</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Authenticated private information retrieval</title>
+      <link>https://nikirill.com/publication/apir/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 -0500</pubDate>
+      
+      <guid>https://nikirill.com/publication/apir/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Replicated state machines without replicated execution</title>
