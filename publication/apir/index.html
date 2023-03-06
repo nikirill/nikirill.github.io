@@ -15,7 +15,19 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="This paper introduces protocols for _authenticated_ private information retrieval. These schemes enable a client 
+to fetch a record from a remote database server such that (a) the server does not learn which record the client reads, 
+and (b) the client either obtains the “authentic” record or detects server misbehavior and safely aborts. 
+Both properties are crucial for many applications. Standard private-information-retrieval schemes either do not ensure 
+this form of output authenticity, or they require multiple database replicas with an honest majority. 
+In contrast, we offer multi-server schemes that protect security as long as at least one server is honest. 
+Moreover, if the client can obtain a short digest of the database out of band, then our schemes require only a single 
+server. Performing an authenticated private PGP-public-key lookup on an OpenPGP key server’s database of 3.5 million 
+keys (3 GiB), using two non-colluding servers, takes under 1.2 core-seconds of computation, essentially matching 
+the time taken by unauthenticated private information retrieval. Our authenticated single-server schemes are 30-100× 
+more costly than state-of-the-art unauthenticated single-server schemes, though they achieve incomparably stronger 
+integrity properties.
+">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nikirill.com/publication/apir/">
@@ -107,7 +119,19 @@
   <meta property="og:site_name" content="Kirill Nikitin&#39;s Personal Page">
   <meta property="og:url" content="https://nikirill.com/publication/apir/">
   <meta property="og:title" content="Authenticated private information retrieval | Kirill Nikitin&#39;s Personal Page">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="This paper introduces protocols for _authenticated_ private information retrieval. These schemes enable a client 
+to fetch a record from a remote database server such that (a) the server does not learn which record the client reads, 
+and (b) the client either obtains the “authentic” record or detects server misbehavior and safely aborts. 
+Both properties are crucial for many applications. Standard private-information-retrieval schemes either do not ensure 
+this form of output authenticity, or they require multiple database replicas with an honest majority. 
+In contrast, we offer multi-server schemes that protect security as long as at least one server is honest. 
+Moreover, if the client can obtain a short digest of the database out of band, then our schemes require only a single 
+server. Performing an authenticated private PGP-public-key lookup on an OpenPGP key server’s database of 3.5 million 
+keys (3 GiB), using two non-colluding servers, takes under 1.2 core-seconds of computation, essentially matching 
+the time taken by unauthenticated private information retrieval. Our authenticated single-server schemes are 30-100× 
+more costly than state-of-the-art unauthenticated single-server schemes, though they achieve incomparably stronger 
+integrity properties.
+">
   
   
     
@@ -215,25 +239,6 @@
           <a class="nav-link" href="/#experience">
             
             <span>Experience</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/#projects">
-            
-            <span>Projects</span>
             
           </a>
         </li>
@@ -453,10 +458,22 @@
 
 
   
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/apir.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
 
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dedis/apir-code" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -486,6 +503,20 @@
   <div class="article-container">
 
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">This paper introduces protocols for <em>authenticated</em> private information retrieval. These schemes enable a client
+to fetch a record from a remote database server such that (a) the server does not learn which record the client reads,
+and (b) the client either obtains the “authentic” record or detects server misbehavior and safely aborts.
+Both properties are crucial for many applications. Standard private-information-retrieval schemes either do not ensure
+this form of output authenticity, or they require multiple database replicas with an honest majority.
+In contrast, we offer multi-server schemes that protect security as long as at least one server is honest.
+Moreover, if the client can obtain a short digest of the database out of band, then our schemes require only a single
+server. Performing an authenticated private PGP-public-key lookup on an OpenPGP key server’s database of 3.5 million
+keys (3 GiB), using two non-colluding servers, takes under 1.2 core-seconds of computation, essentially matching
+the time taken by unauthenticated private information retrieval. Our authenticated single-server schemes are 30-100×
+more costly than state-of-the-art unauthenticated single-server schemes, though they achieve incomparably stronger
+integrity properties.</p>
+    
 
     
     <div class="row">
@@ -513,7 +544,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">To appear in the <em>USENIX Security Symposium</em>, 2023</div>
+          <div class="col-12 col-md-9"><em>USENIX Security Symposium</em>, 2023 (to appear)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
