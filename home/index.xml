@@ -6,8 +6,8 @@
     <description>Recent content in Homes on Kirill Nikitin&#39;s Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2023 Kirill Nikitin</copyright>
-    <lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2025 Kirill Nikitin</copyright>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>Experience</title>
+      <link>https://nikirill.com/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Talks</title>
       <link>https://nikirill.com/home/talks/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 -0400</pubDate>
@@ -40,11 +49,11 @@
     </item>
     
     <item>
-      <title>Experience</title>
-      <link>https://nikirill.com/home/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Posts</title>
+      <link>https://nikirill.com/home/posts/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 -0400</pubDate>
       
-      <guid>https://nikirill.com/home/experience/</guid>
+      <guid>https://nikirill.com/home/posts/</guid>
       <description></description>
     </item>
     
@@ -58,6 +67,16 @@
     </item>
     
     <item>
+      <title>Service</title>
+      <link>https://nikirill.com/home/service/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikirill.com/home/service/</guid>
+      <description>I have served on the program committee or the editorial board of the following conferences, journals and workshops:
+ USENIX Security Symposium 2025, 2026 ACM Conference on Computer and Communications Security (CCS) 2023, 2024 Satellite Conference on Biomedical Data Privacy and Equity (RECOMB-PRIEQ) 2024 Journal of Systems Research (JSys) 2021 ACM CCS 2021 Posters &amp;amp; Demos Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock) 2019, 2020 Workshop on Blockchain-enabled Networked Sensor Systems (BlockSys) 2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC) 2019  I also have been an external reviewer and a sub-reviewer for:</description>
+    </item>
+    
+    <item>
       <title>Teaching</title>
       <link>https://nikirill.com/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -65,16 +84,6 @@
       <guid>https://nikirill.com/home/teaching/</guid>
       <description>I have supervised four master&amp;rsquo;s theses, three master&amp;rsquo;s and two bachelor&amp;rsquo;s semester projects, and served as a teaching assistant for the following courses at EPFL:
  CS-438: Decentralized systems engineering (fall 2017, 2018, 2020) CS-119: Information, computation and communication (spring 2020) CS-234: Technologies of societal self-organization (fall 2019) COM-402: Information security and privacy (spring 2017, 2018) MATH-101(e): Analysis I (fall 2016) COM-102: Advanced information, computation, communication II (spring 2016)  </description>
-    </item>
-    
-    <item>
-      <title>Service</title>
-      <link>https://nikirill.com/home/service/</link>
-      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nikirill.com/home/service/</guid>
-      <description>I have served on the program committee or the editorial board of the following conferences, journals and workshops:
- USESEC 2025: USENIX Security Symposium ACM CCS 2023, 2024: ACM Conference on Computer and Communications Security RECOMB-PRIEQ 2024: Satellite Conference on Biomedical Data Privacy and Equity JSys 2021: Journal of Systems Research ACM CCS 2021 Posters &amp;amp; Demos CryBlock 2020, 2019: Workshop on Cryptocurrencies and Blockchains for Distributed Systems BlockSys 2019: Workshop on Blockchain-enabled Networked Sensor Systems ICBC 2019: IEEE International Conference on Blockchain and Cryptocurrency  I also have been an external reviewer and a sub-reviewer for:</description>
     </item>
     
     <item>
