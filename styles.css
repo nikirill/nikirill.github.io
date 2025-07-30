@@ -902,10 +902,10 @@ article .article-metadata {
 
 .author-card .portrait {
   width: 60px;
-  height: 60px;
+  height: 70px;
   margin: 0 auto;
   border-radius: 50%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .author-card .card-title {
