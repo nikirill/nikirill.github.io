@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2025 Kirill Nikitin</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 -0500</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Private Information Leakage from Polygenic Risk Scores</title>
+      <link>https://nikirill.com/publication/prs/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      
+      <guid>https://nikirill.com/publication/prs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>My approved EB-1A green-card DYI petition</title>
@@ -106,15 +115,6 @@ Two recommenders offered to write their letters (I have excluded them from the p
 
 &lt;p&gt;For the medical exam, I ended up going to Family Medicine NYC (Dr. Eva Galstian) and paid $200 in cash for the exam itself. The tests got covered by my health insurance as I combined the visit with my annual physical. I do not think I would recommend them because they ordered antibody tests for the vaccines that I had records for but told me to re-vaccinate for the vaccines that I had antibody tests done elsewhere. But, in the end, it was cheap and their report got accepted by USCIS. If you are in the NYC area, I have also read about Vitastat Medical (Dr. Ken Truong) in Astoria and Dr. Xiaorong Yan in Flushing who charge $150 and $100, respectively.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Private Information Leakage from Polygenic Risk Scores</title>
-      <link>https://nikirill.com/publication/prs/</link>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 -0400</pubDate>
-      
-      <guid>https://nikirill.com/publication/prs/</guid>
-      <description></description>
     </item>
     
     <item>
