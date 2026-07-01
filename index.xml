@@ -6,15 +6,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2026 Kirill Nikitin</copyright>
-    <lastBuildDate>Sun, 24 May 2026 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Private information leakage from polygenic risk scores</title>
       <link>https://nikirill.com/publication/prs/</link>
-      <pubDate>Sun, 24 May 2026 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 29 May 2026 00:00:00 -0400</pubDate>
       
       <guid>https://nikirill.com/publication/prs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On practical privacy challenges of medical research in the US</title>
+      <link>https://nikirill.com/talk/interviews/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 -0400</pubDate>
+      
+      <guid>https://nikirill.com/talk/interviews/</guid>
       <description></description>
     </item>
     
@@ -107,7 +116,9 @@ Two recommenders offered to write their letters (I have excluded them from the p
 
 &lt;h4 id=&#34;payment&#34;&gt;Payment&lt;/h4&gt;
 
-&lt;p&gt;You need to use separate credit-card authorization forms or checks for each fee. So, in my case, it was $715 filing fee + $300 asylum program fee for filing as a self-petitioner + $2,805 premium processing fee. Reddit insists on paying by checks, but if you have a credit card from a US bank, you should arguably be fine paying with it. I used an &lt;a href=&#34;https://americanexpress.com/en-us/referral/gold-card?ref=KIRILNubqs&amp;amp;xl=cp10o6&#34; target=&#34;_blank&#34;&gt;Amex card&lt;/a&gt; for I-140 and later a &lt;a href=&#34;https://i.capitalone.com/JhwyDkax4&#34; target=&#34;_blank&#34;&gt;Capital One card&lt;/a&gt; for I-485 and both worked without an issue.&lt;/p&gt;
+&lt;p&gt;You need to use separate credit-card authorization forms or checks for each fee. So, in my case, it was $715 filing fee + $300 asylum program fee for filing as a self-petitioner + $2,805 premium processing fee. Reddit insists on paying by checks, but if you have a credit card from a US bank, you should arguably be fine paying with it. I used an &lt;a href=&#34;https://americanexpress.com/en-us/referral/american-express-green-card?ref=KIRILNEIFa&amp;amp;xl=cp10o6&#34; target=&#34;_blank&#34;&gt;Amex card&lt;/a&gt; for I-140 and later a &lt;a href=&#34;https://i.capitalone.com/JZatgQwMs&#34; target=&#34;_blank&#34;&gt;Capital One card&lt;/a&gt; for I-485 and both worked without an issue.&lt;/p&gt;
+
+&lt;p&gt;Here’s my Amex referral link. Use it and we could both earn rewards if you are approved and get a Card. Check out offers and Card benefits.&lt;/p&gt;
 
 &lt;h2 id=&#34;i-485&#34;&gt;I-485&lt;/h2&gt;
 
@@ -251,15 +262,6 @@ and having a minimal computational overhead.&lt;/p&gt;
       <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://nikirill.com/publication/axiom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Collective Authority (Cothority) Framework</title>
-      <link>https://nikirill.com/project/cothority/</link>
-      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nikirill.com/project/cothority/</guid>
       <description></description>
     </item>
     
