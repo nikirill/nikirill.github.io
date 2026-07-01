@@ -118,7 +118,7 @@ Two recommenders offered to write their letters (I have excluded them from the p
     </item>
     
     <item>
-      <title>Private Information Leakage from Polygenic Risk Scores</title>
+      <title>Private information leakage from polygenic risk scores</title>
       <link>https://nikirill.com/talk/prs/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 -0400</pubDate>
       
@@ -136,7 +136,7 @@ Two recommenders offered to write their letters (I have excluded them from the p
     </item>
     
     <item>
-      <title>Integrity and Metadata Protection in Data Retrieval</title>
+      <title>Integrity and metadata protection in data retrieval</title>
       <link>https://nikirill.com/talk/thesis/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
       
@@ -188,7 +188,7 @@ padding to a power of two, but with lower overhead of at most 12% and decreasing
     </item>
     
     <item>
-      <title>Reducing Metadata Leakage from Encrypted Files and Communication with PURBs</title>
+      <title>Reducing metadata leakage from encrypted files and communication with PURBs</title>
       <link>https://nikirill.com/talk/purbs/</link>
       <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
       
@@ -206,7 +206,7 @@ padding to a power of two, but with lower overhead of at most 12% and decreasing
     </item>
     
     <item>
-      <title>CHAINIAC: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds</title>
+      <title>CHAINIAC: Proactive software-update transparency via collectively signed skipchains and verified builds</title>
       <link>https://nikirill.com/talk/chainiac/</link>
       <pubDate>Fri, 18 Aug 2017 00:00:00 -0400</pubDate>
       
