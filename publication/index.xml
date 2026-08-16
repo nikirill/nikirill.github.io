@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2026 Kirill Nikitin</copyright>
-    <lastBuildDate>Fri, 29 May 2026 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://nikirill.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Privacy audits for clinical large language models</title>
+      <link>https://nikirill.com/publication/llm-audits/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 -0400</pubDate>
+      
+      <guid>https://nikirill.com/publication/llm-audits/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Private information leakage from polygenic risk scores</title>

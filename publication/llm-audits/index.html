@@ -15,20 +15,10 @@
   
     
   
-  <meta name="description" content="Polygenic Risk Scores (PRSs) estimate the likelihood of individuals to develop complex diseases based on their
-genetic variations. While their use in clinical practice and direct-to-consumer genetic testing is growing, the
-privacy implications of public PRS sharing are often underestimated. In this work, we demonstrate that PRSs
-can be exploited to recover genotypes and to de-anonymize individuals. We describe how to reconstruct a
-portion of an individual’s genome from a single PRS value by using dynamic programming and population-based likelihood 
-estimation, which we experimentally demonstrate on PRS panels of up to 50 variants. We
-highlight the risks of combining multiple, even larger-panel PRSs to improve genotype-recovery accuracy,
-which can enable the re-identification of individuals or their relatives in genomic databases or the prediction
-of additional health risks, not originally associated with the disclosed PRSs. We then develop an analytical
-framework to assess the privacy risk of releasing individual PRS values and provide a potential solution for
-sharing PRS models without decreasing their utility">
+  <meta name="description" content="Large language models (LLMs) fine-tuned on de-identified clinical notes raise privacy concerns because automated de-identification can leave residual patient identifiers in the training data. We study whether such identifiers can be recovered from a fine-tuned model using query access alone as a function of query budget. We introduce Verified Extraction, an auditing framework that distinguishes identifiers attributable to fine-tuning data from spurious or prior-driven outputs and quantifies recoverable leakage under explicit query budgets. Using MIMIC-IV-Note as the fine-tuning dataset, we find that verified leakage is negligible at small query budgets but becomes practically significant under repeated querying, even when only a small fraction of identifiers remains in the training data. These results highlight the importance of privacy evaluations that account for repeated-query access rather than one-off prompt tests.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nikirill.com/publication/prs/">
+  <link rel="alternate" hreflang="en-us" href="https://nikirill.com/publication/llm-audits/">
 
   
 
@@ -96,40 +86,30 @@ sharing PRS models without decreasing their utility">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://nikirill.com/publication/prs/">
+  <link rel="canonical" href="https://nikirill.com/publication/llm-audits/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Kirill Nikitin&#39;s Personal Page">
-  <meta property="og:url" content="https://nikirill.com/publication/prs/">
-  <meta property="og:title" content="Private information leakage from polygenic risk scores | Kirill Nikitin&#39;s Personal Page">
-  <meta property="og:description" content="Polygenic Risk Scores (PRSs) estimate the likelihood of individuals to develop complex diseases based on their
-genetic variations. While their use in clinical practice and direct-to-consumer genetic testing is growing, the
-privacy implications of public PRS sharing are often underestimated. In this work, we demonstrate that PRSs
-can be exploited to recover genotypes and to de-anonymize individuals. We describe how to reconstruct a
-portion of an individual’s genome from a single PRS value by using dynamic programming and population-based likelihood 
-estimation, which we experimentally demonstrate on PRS panels of up to 50 variants. We
-highlight the risks of combining multiple, even larger-panel PRSs to improve genotype-recovery accuracy,
-which can enable the re-identification of individuals or their relatives in genomic databases or the prediction
-of additional health risks, not originally associated with the disclosed PRSs. We then develop an analytical
-framework to assess the privacy risk of releasing individual PRS values and provide a potential solution for
-sharing PRS models without decreasing their utility">
+  <meta property="og:url" content="https://nikirill.com/publication/llm-audits/">
+  <meta property="og:title" content="Privacy audits for clinical large language models | Kirill Nikitin&#39;s Personal Page">
+  <meta property="og:description" content="Large language models (LLMs) fine-tuned on de-identified clinical notes raise privacy concerns because automated de-identification can leave residual patient identifiers in the training data. We study whether such identifiers can be recovered from a fine-tuned model using query access alone as a function of query budget. We introduce Verified Extraction, an auditing framework that distinguishes identifiers attributable to fine-tuning data from spurious or prior-driven outputs and quantifies recoverable leakage under explicit query budgets. Using MIMIC-IV-Note as the fine-tuning dataset, we find that verified leakage is negligible at small query budgets but becomes practically significant under repeated querying, even when only a small fraction of identifiers remains in the training data. These results highlight the importance of privacy evaluations that account for repeated-query access rather than one-off prompt tests.">
   
   
     
   <meta property="og:image" content="https://nikirill.com/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2026-05-29T00:00:00-04:00">
+  <meta property="article:published_time" content="2026-08-12T00:00:00-04:00">
   
-  <meta property="article:modified_time" content="2026-05-29T00:00:00-04:00">
-  
-
+  <meta property="article:modified_time" content="2026-08-12T00:00:00-04:00">
   
 
   
 
-  <title>Private information leakage from polygenic risk scores | Kirill Nikitin&#39;s Personal Page</title>
+  
+
+  <title>Privacy audits for clinical large language models | Kirill Nikitin&#39;s Personal Page</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -336,7 +316,7 @@ sharing PRS models without decreasing their utility">
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Private information leakage from polygenic risk scores</h1>
+  <h1 itemprop="name">Privacy audits for clinical large language models</h1>
 
   
 
@@ -350,7 +330,19 @@ sharing PRS models without decreasing their utility">
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Florent Pollet</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Kirill Nikitin</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Tong Wang</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Rahul Gupta</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Noémie Elhadad</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Gamze Gürsoy</span>
@@ -361,9 +353,9 @@ sharing PRS models without decreasing their utility">
 
   <span class="article-date">
     
-    <meta content="2026-05-29 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2026-05-29 00:00:00 -0400 EDT" itemprop="dateModified">
-      May 29, 2026
+    <meta content="2026-08-12 00:00:00 -0400 EDT" itemprop="datePublished">
+    <time datetime="2026-08-12 00:00:00 -0400 EDT" itemprop="dateModified">
+      Aug 12, 2026
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -383,35 +375,35 @@ sharing PRS models without decreasing their utility">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Private%20information%20leakage%20from%20polygenic%20risk%20scores&amp;url=https%3a%2f%2fnikirill.com%2fpublication%2fprs%2f"
+         href="https://twitter.com/intent/tweet?text=Privacy%20audits%20for%20clinical%20large%20language%20models&amp;url=https%3a%2f%2fnikirill.com%2fpublication%2fllm-audits%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-x-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnikirill.com%2fpublication%2fprs%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnikirill.com%2fpublication%2fllm-audits%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnikirill.com%2fpublication%2fprs%2f&amp;title=Private%20information%20leakage%20from%20polygenic%20risk%20scores"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnikirill.com%2fpublication%2fllm-audits%2f&amp;title=Privacy%20audits%20for%20clinical%20large%20language%20models"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnikirill.com%2fpublication%2fprs%2f&amp;title=Private%20information%20leakage%20from%20polygenic%20risk%20scores"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnikirill.com%2fpublication%2fllm-audits%2f&amp;title=Privacy%20audits%20for%20clinical%20large%20language%20models"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Private%20information%20leakage%20from%20polygenic%20risk%20scores&amp;body=https%3a%2f%2fnikirill.com%2fpublication%2fprs%2f">
+         href="mailto:?subject=Privacy%20audits%20for%20clinical%20large%20language%20models&amp;body=https%3a%2f%2fnikirill.com%2fpublication%2fllm-audits%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -446,8 +438,16 @@ sharing PRS models without decreasing their utility">
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.biorxiv.org/content/10.64898/2026.02.16.706191v1" target="_blank" rel="noopener">
-  Preprint
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/clinical-llm-privacy.pdf" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
@@ -455,15 +455,7 @@ sharing PRS models without decreasing their utility">
 
 
 
-  
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/g2lab/prs-privacy" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/g2lab/verified-extraction-audit" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -476,40 +468,8 @@ sharing PRS models without decreasing their utility">
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/prs-poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
 
 
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/prs-recomb2026-slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.newscientist.com/article/2518761-sharing-genetic-risk-scores-can-unwittingly-reveal-secrets/" target="_blank" rel="noopener">
-    
-    NewScientist coverage
-  </a>
 
 
 </div>
@@ -524,17 +484,7 @@ sharing PRS models without decreasing their utility">
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Polygenic Risk Scores (PRSs) estimate the likelihood of individuals to develop complex diseases based on their
-genetic variations. While their use in clinical practice and direct-to-consumer genetic testing is growing, the
-privacy implications of public PRS sharing are often underestimated. In this work, we demonstrate that PRSs
-can be exploited to recover genotypes and to de-anonymize individuals. We describe how to reconstruct a
-portion of an individual’s genome from a single PRS value by using dynamic programming and population-based likelihood
-estimation, which we experimentally demonstrate on PRS panels of up to 50 variants. We
-highlight the risks of combining multiple, even larger-panel PRSs to improve genotype-recovery accuracy,
-which can enable the re-identification of individuals or their relatives in genomic databases or the prediction
-of additional health risks, not originally associated with the disclosed PRSs. We then develop an analytical
-framework to assess the privacy risk of releasing individual PRS values and provide a potential solution for
-sharing PRS models without decreasing their utility</p>
+    <p class="pub-abstract" itemprop="text">Large language models (LLMs) fine-tuned on de-identified clinical notes raise privacy concerns because automated de-identification can leave residual patient identifiers in the training data. We study whether such identifiers can be recovered from a fine-tuned model using query access alone as a function of query budget. We introduce Verified Extraction, an auditing framework that distinguishes identifiers attributable to fine-tuning data from spurious or prior-driven outputs and quantifies recoverable leakage under explicit query budgets. Using MIMIC-IV-Note as the fine-tuning dataset, we find that verified leakage is negligible at small query budgets but becomes practically significant under repeated querying, even when only a small fraction of identifiers remains in the training data. These results highlight the importance of privacy evaluations that account for repeated-query access rather than one-off prompt tests.</p>
     
 
     
@@ -545,8 +495,8 @@ sharing PRS models without decreasing their utility</p>
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#2">
-              Journal
+            <a href="/publication/#1">
+              Conference proceedings
             </a>
             
           </div>
@@ -563,7 +513,7 @@ sharing PRS models without decreasing their utility</p>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>International Conference on Research in Computational Molecular Biology (RECOMB)</em>, May 2026</div>
+          <div class="col-12 col-md-9"><em>Machine Learning for Healthcare</em>, August 2026</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -577,7 +527,7 @@ sharing PRS models without decreasing their utility</p>
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            May, 2026
+            August, 2026
           </div>
         </div>
       </div>
@@ -602,116 +552,6 @@ sharing PRS models without decreasing their utility</p>
 
 
 
-
-<div class="media author-card" itemscope itemtype="http://schema.org/Person">
-  
-  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
-  
-  <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Kirill Nikitin</a></h5>
-    <h6 class="card-subtitle">Associate Research Scientist</h6>
-    
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="mailto:kirill.nikitin@columbia.edu" >
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://twitter.com/ni_kirill" target="_blank" rel="noopener">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://www.linkedin.com/in/nikirill/" target="_blank" rel="noopener">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=uDzGL3sAAAAJ" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://github.com/nikirill" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="/files/cv.pdf" >
-          <i class="ai ai-cv"></i>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
-</div>
 
 
 
