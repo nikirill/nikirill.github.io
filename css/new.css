@@ -227,18 +227,23 @@ ul.ul-edu li {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
 ul.ul-contact li {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   margin-top: 10px;
   margin-left: -3px;
+}
+
+#about .col-sm-5 > h3,
+#about .col-sm-7 > h3 {
+  font-size: 1.15rem;
 }
 
 /* .author-card .portrait {
